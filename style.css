@@ -1,0 +1,75 @@
+@font-face {
+    src: url('../aula_2002/fonts/UniversLTStd-Bold.otf');
+    font-family: FonteSenai;
+}
+
+.barraMenu {
+    font-family: FonteSenai;
+    display: flex;
+    background-color: rgb(166, 182, 213);
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    display: flex;
+    margin-left: 30px;
+}
+
+.menu li a {
+    color: white;
+    padding: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    display: block;
+    background-color: rgb(24, 93, 169);
+    border-radius: 10%;
+}
+
+p {
+    color: currentColor;
+}
+
+.conteudo {
+    min-height: 1500px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.divs {
+    display: flex;
+    margin: 50px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.imagens {
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
